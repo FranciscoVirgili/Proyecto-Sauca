@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif; };
+
+/*  INDEX  */
+
+body{
+    background-color: #6d9c6f;
+}
+
+header {
+    display: flex !important;
+    height: 50vh;
+    flex-direction: column;
+    width: 100%;
+}
+
+.imagen_principal {
+    width: 118vh;
+    height: 30vh;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+
+.lista_paginas {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+}
+
+.lista_paginas li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.lista_paginas li a {
+    color: #6d9c6f;
+    text-decoration: none;
+
+}
+
+.lista_paginas li a:hover{
+    color: rgb(99, 128, 88);
+    transition: all 0.6s;
+    font-size: 30px;
+
+}
+
+h3{
+  margin-left: 35% !important;
+  margin: 1rem;
+}
+
+
+.contenedor_jabones {
+    position: relative;
+    height: 290px;
+    width: 290px;
+    margin: 50px 20px;
+    float: left;
+  }
+  
+  .contenedor_jabones img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+  
+  .contenedor_jabones img.top:hover {
+    opacity: 0;
+  }
+
+  .contenedor_champu {
+    position: relative;
+    height: 290px;
+    width: 290px;
+    margin: 50px 20px;
+    float: left;
+  }
+  
+  .contenedor_champu img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+  
+  .contenedor_champu img.top_champu:hover {
+    opacity: 0;
+  }
+
+  .contenedor_otros {
+    position: relative;
+    height: 290px;
+    width: 290px;
+    margin: 50px 20px;
+    float: left;
+  }
+  
+  .contenedor_otros img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+  
+  .contenedor_otros img.top_cosmeticos:hover {
+    opacity: 0;
+  }
+
+.grid_productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem;
+}
+
+.grid_productos div {
+    margin: 1rem;
+}
+
+.grid_productos h2 {
+    width: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 26rem;
+    color: #6d9c6f
+}
+
+.jabones{
+    margin-left: auto;
+}
+
+.addToCart:hover{
+  color: rgb(99, 128, 88);
+    transition: all 0.6s;
+    font-size: 15px;
+}
+
+.shampoo{
+margin-left: auto;
+}
+
+.cosmeticos{
+margin-left: auto;
+}
+
+.totalCompra {
+  margin-top: 36vh;
+    position: absolute;
+    width: 29vw;
+    color: #6d9c6f;
+    background-color: #eae6df;
+    height: 43px;
+    margin-left: 34vw;
+}
+
+.total{
+  
+}
+
+footer{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    margin-top: 80vh;
+
+}
+
+.copyright{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 5rem;
+    color: #6d9c6f
+}
+
+.flex__redessociales {
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex__redessociales img a:hover{
+    color: rgb(99, 128, 88);
+    transition: all 0.6s;
+    font-size: 30px;
+   
+}
+
+.flex__redessociales img {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 2rem;
+}

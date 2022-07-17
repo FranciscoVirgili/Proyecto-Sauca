@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Sauca</title>
+    <link rel="icon" href="iconos/sauca-logo.jpeg" style="width: 100px; height: 100px">
+    <meta name="keywords" content="artesanal, natural, belleza, cosmeticos, cosmetico, jabones, shampoo, esecencias, cuidados, salud, serum, capilar, ungüento, bàlsamo,jabonera, sahúmo, higiene"/>
+    <meta name="description" content="pagina dedicada al cuidado personal y la salud de la piel y el cuero cabelludo. Encontrarás productos naturales y saludables de primer nivel">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="imagen_principal"src="./iconos/sauca-logo.jpeg" alt="logosauca"> 
+        <div class="lista_header">
+            <ul class="lista_paginas
+            ">
+                <li class="lista_inicio">
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li class="lista_jabones">
+                    <a href="./jabones.html">Jabones</a>
+                </li>
+                <li class="lista_shampoo">
+                    <a href="./shampoo.html">Shampoo</a>
+                </li>
+                <li class="lista_cosmetica">
+                    <a href="./cosmeticos.html">Cosmeticos</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <section class="grid_productos">
+        <div class="contenedor_jabones">
+            <img src="./imagenes/jabon-artesanal.jpg" alt="jabón-artesanal">
+            <img class="top" src="./imagenes/jabon-exfoliante.png" alt="jabon-exfoliante">
+            <h2 class="jabones">JABONES</h2>
+            <h3>$400,00</h3>
+            <button class="addToCart" onclick="agregarAlCarrito(jabon) "type="button" style="width: 100%; color: #6d9c6f; background-color: #eae6df; height: 30px;">Comprar</button>
+        </div>
+        
+        <div class="contenedor_champu">
+            <img src="./imagenes/c-graso-ng.png" alt="champú-graso">
+            <img class="top_champu" src="./imagenes/jabon-sensible.png" alt="champú-solido">
+            <h2 class="shampoo">SHAMPOO</h2>
+            <h3>$700,00</h3>
+            <button class="addToCart" onclick="agregarAlCarrito(shampoo)" type="button" style="width: 100%; color: #6d9c6f; background-color: #eae6df; height: 30px;">Comprar</button>
+        </div>
+
+        <div class="contenedor_otros">
+            <img src="./imagenes/balsamo-labial.png" alt="bálsamo-labial">
+            <img class="top_cosmeticos" src="./imagenes/emulsion-dia.jpeg" alt="emulsión">
+            <h2 class="cosmeticos">COSMETICOS</h2>
+            <h3>$650,00</h3>
+            <button class="addToCart" onclick="agregarAlCarrito(cosmeticos)" type="button" style="width: 100%; color: #6d9c6f; background-color: #eae6df; height: 30px;">Comprar</button>
+        </div>
+
+        <section class="total">
+            <button class="totalCompra" onclick="Compra()" type="button" style= "color: #6d9c6f; background-color: #eae6df;">Total Compra</button>
+        </section>
+
+<footer>
+    <h1 class="copyright">Copyright © 2022 Sauca, Todos los derechos reservados.</h1>
+    <div class="flex__redessociales">
+        <a href="https://www.facebook.com/sauca.artesanalynatural" target="_blank">
+            <img src="./iconos/facebook.svg" class="iconos__redessociales">
+        </a>
+        <a href="https://whatsapp.com" target="_blank">
+            <img src="./iconos/whatsapp.svg" class="iconos__redessociales">
+        </a>
+        <a href="https://www.instagram.com/sauca.artesanalynatural/" target="_blank">
+            <img src="./iconos/instagram.svg"class="iconos__redessociales">
+        </a>
+    </div>
+</footer>
+<script src="./saucajs.js"></script>
+</body>
+</html>
