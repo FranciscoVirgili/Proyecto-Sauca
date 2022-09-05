@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif; }
+
+/*  INDEX  */
+
+body{
+    background: #f6f4fb !important;
+}
+
+ /*  HEADER  */
+
+header {
+    display: flex !important;
+    height: 35vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: #f6f4fb !important;
+}
+
+.promocion{
+    background-color: black;
+    color: white;
+    
+}
+
+.promocion p{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.imagen_principal {
+    margin-left: 2rem;
+}
+
+.utilities{
+    margin-right: 5rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.iconos_utilities{
+    align-items: center;
+    width: 33vw;
+    display: inline-flex;
+    justify-content: space-evenly;
+    
+}
+
+.texto_utilities{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 23px;
+}
+
+.utilities img {
+    width: 23px;
+    height: 25px;
+    
+}
+
+.trash{
+    margin-right: -2rem;
+}
+
+.trash_icono:hover{
+    color: rgb(99, 128, 88);
+    transition: all 0.6s;
+    font-size: 30px;
+}
+
+#total_carrito{
+    text-align: center;
+    height: 3vh;
+}
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid h1{
+    margin-right: 28vw;
+    color: #4e6e4fbf;
+}
+
+#lista_header {
+    width: 100% !important;
+}
+
+.lista_paginas {
+    display: flex;
+    width: 100% !important;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+}
+
+.lista_paginas li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.lista_paginas li a {
+    color: #0b0b0bbf;
+    text-decoration: none;
+
+}
+
+.lista_paginas li a:hover{
+    color: rgb(99, 128, 88);
+    transition: all 0.6s;
+    font-size: 30px;
+
+}
+
+.navbar {
+    border: black;
+    border-block-end: solid;
+    border-block-end-width: 2px;
+}
+
+#form {
+    width: 30vw;
+}
+
+#form input{
+    width: 40vw !important;
+}
+
+/*  Cards  */
+
+#card_productos{
+    display: flex;
+    padding: 1rem;
+    height: 100%;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    
+    
+}
+
+#card-productos{
+border-style: solid;
+border-width: 1px;
+background-color: #f3f3f3;
+}
+
+h2{
+font-size: 18px !important;
+}
+
+#card_productos div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+#card_productos img {
+    width: 100%;
+    height: 42vh;
+    align-self: center;
+}
+
+#carrito{
+    border: black;
+    border-block-end: solid;
+    border-block-end-width: 2px;
+}
+
+.card-text {
+    width: 300px;
+    text-align: justify;
+    margin-top: 8px;
+}
+
+.card-price {
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.card-body{
+    align-items: center;
+    margin: 1rem;
+}
+
+#boton_carrito{
+    width: 10rem !important;
+    padding: 10px;
+    position: bottom;
+}
+
+#carrito{
+    width: 100%;
+    display: flex;
+}
+
+.list-group{
+    align-items: center;
+    width: 100%;
+    background-color: #f6f4fb ;
+}
+
+.list-group li{
+    width: 100%;
+    background-color: #f6f4fb;
+    border: none;
+}
+
+.list-group button{
+    width: 18rem !important;
+    margin: 1rem;
+}
+
+.lista_productos{
+    margin: 2vw;
+}
+
+
+/* MODAL */
+
+#eliminar_producto{
+border:none;
+background-color: white;
+}
+
+/*  FOOTER  */
+
+footer{
+    background-color: #e6e6e5
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+
+}
+
+footer h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sobre_sauca{
+    align-items: center;
+    text-align: justify;
+}
+
+.contacto{
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 3vh;
+    width: 100%;
+}
+
+.contacto h2{
+    margin-left: 2vw;
+    font-size: 20px;
+}
+
+.contacto_direcciones{
+    display: flex;
+}
+
+.contacto_direcciones img{
+    margin-right: 1vw;
+    margin-top: 3vh;
+    margin-left: -1vw
+}
+
+.contacto_direcciones p{
+    margin-top: 3vh;
+}
+
+.redes_sociales{
+    margin-top: 2vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.redes_sociales h2{
+    font-size: 20px;
+}
+
+.redes_iconos{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -3vw;
+    margin-top: 1vh;
+}
+
+#weather_section {
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e6e5;
+}
+
+#contenedor_weather {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 120px;
+}
+
+#caja1, #caja2, #caja3 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 100px;
+}
+
+#caja1{
+    color: #050505;
+    height: 14vh;
+}
+
+#temperatura_valor{
+    margin-top: 3vh;
+}
+
+#caja2{
+    color: #050505;
+    height: 14vh;
+}
+
+#caja3{
+    color: #050505;
+    height: 14vh;
+}
+
+#viento_velocidad{
+    margin-top: 3vh;
+}
+
+.weather{
+    height: 1vh;
+}
+
+#iconoAnimado{
+    width: 128px!important;
+    height: 128px!important;
+    margin-top: 1vh;
+}
+
+.grid_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+    border: black;
+    border-block-end: solid;
+    border-block-end-width: 2px;
+  
+}
+
+.descripcion_sauca{
+    height: 100%;
+    margin: 2vw;
+}
+
+.descripcion_sauca p{
+    text-align: justify;
+}
+
+.titulo{
+    background-color: black;
+    height: 6vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.titulo h1{
+    font-size: 16px!important;
+    color: white;
+}
